@@ -9,15 +9,6 @@ A PHP web application for user authentication and profile management.
 3. Create a MySQL database called `user_profile` with a `user`
 
 CREATE DATABASE user_profile;
-
-CREATE TABLE user (
-    username VARCHAR(50) PRIMARY KEY,
-    password VARCHAR(255),
-    email VARCHAR(100)
-);
-
-INSERT INTO user VALUES 
-('john_doe', '12345678', 'i_love_web_development@swinburne.com');
  table containing:
    - username (primary key)
    - password
